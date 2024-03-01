@@ -27,7 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		111404262B5D6BC50083B917 /* to-do.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "to-do.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		111404262B5D6BC50083B917 /* SimpleToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		111404292B5D6BC50083B917 /* too_dooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = too_dooApp.swift; sourceTree = "<group>"; };
 		1114042B2B5D6BC50083B917 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1114042D2B5D6BC80083B917 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		1114041D2B5D6BC50083B917 = {
 			isa = PBXGroup;
 			children = (
-				111404282B5D6BC50083B917 /* too-doo */,
+				111404282B5D6BC50083B917 /* SimpleToDoApp */,
 				111404272B5D6BC50083B917 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,12 +69,12 @@
 		111404272B5D6BC50083B917 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				111404262B5D6BC50083B917 /* to-do.app */,
+				111404262B5D6BC50083B917 /* SimpleToDoApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		111404282B5D6BC50083B917 /* too-doo */ = {
+		111404282B5D6BC50083B917 /* SimpleToDoApp */ = {
 			isa = PBXGroup;
 			children = (
 				11E83BE92B5D896800CDEBE4 /* UI */,
@@ -83,7 +83,7 @@
 				1114042D2B5D6BC80083B917 /* Assets.xcassets */,
 				1114042F2B5D6BC80083B917 /* Preview Content */,
 			);
-			path = "too-doo";
+			path = SimpleToDoApp;
 			sourceTree = "<group>";
 		};
 		1114042F2B5D6BC80083B917 /* Preview Content */ = {
@@ -149,9 +149,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		111404252B5D6BC50083B917 /* to-do */ = {
+		111404252B5D6BC50083B917 /* SimpleToDoApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 111404342B5D6BC80083B917 /* Build configuration list for PBXNativeTarget "to-do" */;
+			buildConfigurationList = 111404342B5D6BC80083B917 /* Build configuration list for PBXNativeTarget "SimpleToDoApp" */;
 			buildPhases = (
 				111404222B5D6BC50083B917 /* Sources */,
 				111404232B5D6BC50083B917 /* Frameworks */,
@@ -161,9 +161,9 @@
 			);
 			dependencies = (
 			);
-			name = "to-do";
+			name = SimpleToDoApp;
 			productName = "too-doo";
-			productReference = 111404262B5D6BC50083B917 /* to-do.app */;
+			productReference = 111404262B5D6BC50083B917 /* SimpleToDoApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -181,7 +181,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 111404212B5D6BC50083B917 /* Build configuration list for PBXProject "to-do" */;
+			buildConfigurationList = 111404212B5D6BC50083B917 /* Build configuration list for PBXProject "SimpleToDoApp" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -194,7 +194,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				111404252B5D6BC50083B917 /* to-do */,
+				111404252B5D6BC50083B917 /* SimpleToDoApp */,
 			);
 		};
 /* End PBXProject section */
@@ -417,7 +417,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		111404212B5D6BC50083B917 /* Build configuration list for PBXProject "to-do" */ = {
+		111404212B5D6BC50083B917 /* Build configuration list for PBXProject "SimpleToDoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				111404322B5D6BC80083B917 /* Debug */,
@@ -426,7 +426,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		111404342B5D6BC80083B917 /* Build configuration list for PBXNativeTarget "to-do" */ = {
+		111404342B5D6BC80083B917 /* Build configuration list for PBXNativeTarget "SimpleToDoApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				111404352B5D6BC80083B917 /* Debug */,

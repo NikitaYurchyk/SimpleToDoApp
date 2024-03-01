@@ -1,10 +1,3 @@
-//
-//  NewItemToDoView.swift
-//  to-do
-//
-//  Created by Nikita on 01/03/2024.
-//
-
 import SwiftUI
 
 struct NewItemToDoView: View {
